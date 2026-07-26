@@ -1,5 +1,3 @@
-# walgt.github.io
-
 ## À propos
 
 Data Engineer certifié Databricks, spécialisé dans la construction de pipelines de données robustes (Python, PySpark, SQL) et l'industrialisation de projets data sur le cloud (Azure, AWS, GCP). Expérience en architecture Medallion, gouvernance des données et développement d'API.
