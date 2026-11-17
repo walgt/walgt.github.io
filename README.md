@@ -1,9 +1,14 @@
+<p align="center">
+  <img src="assets/img/photo.jpg" alt="Walid Benchabekh" width="180" style="border-radius:50%;">
+</p>
+
 ## À propos
 
 Data Engineer certifié Databricks, spécialisé dans la construction de pipelines de données robustes (Python, PySpark, SQL) et l'industrialisation de projets data sur le cloud (Azure, AWS, GCP). Expérience en architecture Medallion, gouvernance des données et développement d'API.
 
 **Contact :** [benchabekhwalid@gmail.com](mailto:benchabekhwalid@gmail.com) · 07 57 77 52 03 · Paris, France
 **LinkedIn :** [linkedin.com/in/walid-benchabekh](https://www.linkedin.com/in/walid-benchabekh/)
+
 
 ---
 
