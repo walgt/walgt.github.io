@@ -2,74 +2,25 @@
   <img src="assets/img/photo.jpg" alt="Walid Benchabekh" width="180" style="border-radius:50%;">
 </p>
 
-<h3 align="center">Consultant Data & AI Engineer · Ingénieur INSA · Certifié Databricks</h3>
+<h3 align="center">Data Engineer · Ingénieur INSA Rouen · Certifié Databricks Data Engineer Associate</h3>
 
-## À propos
+## Profil
 
-Consultant Data & AI Engineer, ingénieur INSA et certifié Databricks. Je conçois et industrialise des pipelines de données fiables (Python, PySpark, SQL) sur le cloud (Azure, AWS, GCP), de l'ingestion jusqu'à la restitution dans Power BI. J'ai de l'expérience en architecture Medallion, en gouvernance des données (Unity Catalog) et en automatisation de processus avec l'IA générative (Power Automate, n8n, LLMs).
+Data Engineer avec près de 2 ans d'expérience dans la conception et l'industrialisation de pipelines de données sur Azure Databricks (Python, PySpark, SQL, architecture Medallion). Habitué à cartographier les sources et les flux, à fiabiliser les traitements par des contrôles qualité et à restituer la donnée dans des tableaux de bord Power BI. Expérience concrète de l'IA générative (LLM, RAG, Microsoft Copilot Studio).
 
-**Contact :** [benchabekhwalid@gmail.com](mailto:benchabekhwalid@gmail.com) · 07 57 77 52 03 · Paris, France<br>
+**Contact :** [benchabekhwalid@gmail.com](mailto:benchabekhwalid@gmail.com) · 07 57 77 52 03 · Paris / Île-de-France<br>
 **LinkedIn :** [linkedin.com/in/walid-benchabekh](https://www.linkedin.com/in/walid-benchabekh/)<br>
 **GitHub :** [github.com/walgt](https://github.com/walgt)
 
 ---
 
-## Expériences professionnelles
-
-### Data & AI Engineer — Afpa
-*01/2026 – aujourd'hui · Montreuil, Île-de-France*
-
-- **Pipeline de données événementiel sous Power Automate** : ingestion asynchrone de 3 sources, réconciliation par clé métier, transformation et mapping vers un modèle cible de 136 champs, puis génération et diffusion automatisées de documents réglementaires (**gain de 6 à 10 h/semaine**).
-- **Fiabilisation du flux de bout en bout** : upsert idempotent (**zéro doublon**), orchestration conditionnelle déclenchée uniquement une fois les 3 sources reçues, contrôles de complétude et de cohérence avant génération, et tableaux de bord Power BI pour le suivi.
-- **Enrichissement d'une base de 556 structures** par web scraping et rapprochement multi-sources, avec contrôle qualité et traçabilité des données (**taux de complétude porté de 75 % à 92 %**).
-
-### Data Engineer — CGI
-*03/2025 – 09/2025 · Puteaux, Île-de-France*
-*Client : Ministère de la Transition écologique, de la Biodiversité et des Négociations internationales sur le climat et la nature*
-
-- Développement et maintenance de pipelines de données en Python sur Azure Databricks (PySpark, SQL) selon une architecture Medallion (Bronze, Silver, Gold).
-- Gouvernance des données via Unity Catalog : lineage et gestion des accès.
-- Construction de modèles sémantiques et définition de KPIs avec les équipes métier.
-- Production de tableaux de bord sur Power BI et orchestration des flux avec Azure Data Factory.
-
-### Data Scientist (LLMs) — Seleniums
-*04/2024 – 06/2024 · Puteaux, Île-de-France*
-
-- Conception d'un ATS en Python basé sur des LLM pour analyser et classer les CV selon leur niveau de correspondance avec une offre d'emploi.
-
-### Data Engineer — LITIS
-*04/2023 – 06/2023 · Rouen, Normandie*
-
-- Conception d'un ETL en Python pour l'extraction de données via API REST, leur structuration et leur analyse bibliométrique.
-
----
-
-## Formation
-
-**Master Science des Données** — INSA Rouen
-*09/2020 – 09/2025 · Rouen, Normandie*
-
----
-
-## Compétences
-
-- **Data Engineering** : Databricks, PySpark, Spark SQL, dbt, Airflow, Kafka
-- **Bases de données & Modélisation** : SQL avancé, PL/SQL, SQL Server, PostgreSQL, MySQL, Oracle, MongoDB
-- **Cloud & Plateformes** : AWS (S3, Glue, Redshift), Azure (Data Factory, Data Lake, Synapse), GCP (GCS, BigQuery)
-- **BI & Reporting** : Power BI, DAX, Power Query, Tableau, Excel
-- **Programmation & Outils** : Python, Git, CI/CD GitLab, FastAPI, Docker, Kubernetes, Linux, Jira
-- **Machine Learning, NLP & Vision** : LLMs, GenAI (LangChain, RAG, Hugging Face), PyTorch, TensorFlow, YOLO
-- **IA générative & Automatisation** : Claude, n8n, Microsoft Copilot Studio, Power Automate
-
----
-
 ## Projets
 
-### Pipeline ETL — Apache Airflow, GCP, dbt
+### Pipeline de données orchestré — Airflow, GCP, dbt, Soda
 
 Conception et orchestration d'un pipeline ETL avec Apache Airflow, intégration de données vers GCS/BigQuery, transformations modélisées avec dbt et mise en place de tests de qualité des données avec Soda.
 
-**Outils :** Apache Airflow, ETL, Data Pipeline, Google Cloud Platform, GCS, BigQuery, dbt, SQL, Python
+**Outils :** Apache Airflow, Google Cloud Platform, GCS, BigQuery, dbt, Soda, SQL, Python
 
 ### Health Data Hub — Audit qualité d'un pipeline de données de santé
 🔗 [github.com/walgt/Health_data_hub_Project](https://github.com/walgt/Health_data_hub_Project)
@@ -105,10 +56,71 @@ Analyse et visualisation des données ouvertes de la SNCF : régularité mensuel
 
 ---
 
-## Certifications
+## Expériences professionnelles
+
+### Data & AI Engineer (Alternance) — Afpa
+*01/2026 – aujourd'hui · Montreuil, Île-de-France*
+
+**Projet 1 — Pipeline d'ingestion API pour la prospection alternance 2027 (Île-de-France)**
+
+- Ingestion via les API France Travail (La Bonne Boîte, Offres d'emploi) par code ROME, NAF et département.
+- Consolidation multi-sources (entreprises à fort potentiel d'embauche et offres publiées sur les jobboards), agrégation et dédoublonnage par entreprise (SIRET).
+- Enrichissement des contacts décideurs (RH, direction) assisté par IA, avec contrôles qualité et traçabilité ; livraison de fichiers de prospection qualifiés aux équipes commerciales.
+
+*Stack : Python (requests, pandas), API REST France Travail (OAuth2), DuckDB, dbt (modèles et tests qualité), pytest, Git, Power Automate, SharePoint, Power BI, Microsoft Copilot*
+
+**Projet 2 — Génération automatisée des CERFA d'alternance (Power Automate)**
+
+- Cartographie et réconciliation de 3 sources par clé métier, mapping vers un modèle de 136 champs.
+- Pipeline événementiel industrialisé : ingestion, transformation, génération et diffusion automatisées des CERFA, soit un **gain de 6 à 10 h/semaine**.
+- Fiabilisation : upsert idempotent (**zéro doublon**), déclenchement conditionnel, contrôles de complétude.
+
+### Data Engineer (Stage · 6 mois) — CGI
+*03/2025 – 09/2025 · Puteaux, Île-de-France*<br>
+*Client : Ministère de la Transition écologique*
+
+- Pipelines batch Python / PySpark / SQL sur Azure Databricks, architecture Medallion (Bronze, Silver, Gold).
+- Orchestration et industrialisation des flux avec Azure Data Factory.
+- Gouvernance des données avec Unity Catalog : lineage et gestion des accès.
+- Modélisation sémantique et KPIs avec les équipes métier ; tableaux de bord Power BI.
+
+### Data Scientist – IA générative (Stage · 3 mois) — Seleniums
+*04/2024 – 06/2024 · Puteaux, Île-de-France*
+
+- Conception d'un ATS en Python basé sur des LLM classant les CV selon leur adéquation à une offre.
+
+### Data Engineer (Stage · 3 mois) — LITIS
+*04/2023 – 06/2023 · Rouen, Normandie*
+
+- Conception d'un ETL en Python : extraction via API REST, structuration des données et analyse bibliométrique.
+
+---
+
+## Compétences
+
+- **Langages & BI** : Python, SQL avancé, PL/SQL · Power BI (DAX, Power Query), Tableau, Excel
+- **Data Engineering** : Databricks (Delta Lake, Unity Catalog), PySpark, Spark SQL, dbt, Airflow, Azure Data Factory
+- **Modélisation & bases** : Medallion, modèles sémantiques, PostgreSQL, DuckDB, SQL Server, Oracle, MongoDB
+- **Cloud** : Azure (Data Factory, Data Lake, Synapse), AWS (S3, Glue, Redshift), GCP (GCS, BigQuery)
+- **Industrialisation & qualité** : Git, CI/CD GitLab, Docker, Kubernetes, FastAPI, pytest, tests dbt, Soda
+- **IA générative** : LLM, RAG, LangChain, Hugging Face, PyTorch, Microsoft Copilot Studio, Power Automate, n8n
+
+---
+
+## Formation
+
+**Master Science des Données** — INSA Rouen<br>
+*2023 – 2025 · Rouen, Normandie*
+
+**Licence Science des Données** — Université de Rouen Normandie<br>
+*2020 – 2023 · Rouen, Normandie*
+
+---
+
+## Certifications & distinctions
 
 - **Databricks Certified Data Engineer Associate** (02/2026) — Delta Lake, Unity Catalog, PySpark, SQL, Python
-- **ACM ICPC** — 6ᵉ place — Compétition universitaire internationale de programmation en équipe
+- **ACM ICPC** — 6ᵉ place en programmation par équipe
 
 ---
 
