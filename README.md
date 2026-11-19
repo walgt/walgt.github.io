@@ -19,7 +19,9 @@ Data Engineer avec près de 2 ans d'expérience dans la conception et l'industri
 ### Health Data Hub — Audit qualité d'un pipeline de données de santé
 🔗 [github.com/walgt/Health_data_hub_Project](https://github.com/walgt/Health_data_hub_Project)
 
-![Health Data Hub – Audit](assets/health_data_hub_banner_audit.png)
+<p align="center">
+  <img src="assets/img/health_data_hub_banner_audit.png" alt="Health Data Hub – Audit" width="600">
+</p>
 
 Audit de qualité de 6 800 fichiers JSON d'une cohorte patients entre une zone SOURCE et une zone DELIVERY. Une démarche hypothético-déductive (profiling, comparaison des FILE_ID, analyse des attributions) a permis d'identifier la cause racine : le script de transformation déduisait le Patient_ID d'un dossier à partir du premier fichier rencontré, ce qui envoyait **1 228 fichiers vers un seul patient** et faisait **disparaître 20 patients** de la delivery.
 
