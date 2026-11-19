@@ -16,14 +16,10 @@ Data Engineer avec près de 2 ans d'expérience dans la conception et l'industri
 
 ## Projets
 
-### Pipeline de données orchestré — Airflow, GCP, dbt, Soda
-
-Conception et orchestration d'un pipeline ETL avec Apache Airflow, intégration de données vers GCS/BigQuery, transformations modélisées avec dbt et mise en place de tests de qualité des données avec Soda.
-
-**Outils :** Apache Airflow, Google Cloud Platform, GCS, BigQuery, dbt, Soda, SQL, Python
-
 ### Health Data Hub — Audit qualité d'un pipeline de données de santé
 🔗 [github.com/walgt/Health_data_hub_Project](https://github.com/walgt/Health_data_hub_Project)
+
+![Health Data Hub – Audit](assets/health_data_hub_banner_audit.png)
 
 Audit de qualité de 6 800 fichiers JSON d'une cohorte patients entre une zone SOURCE et une zone DELIVERY. Une démarche hypothético-déductive (profiling, comparaison des FILE_ID, analyse des attributions) a permis d'identifier la cause racine : le script de transformation déduisait le Patient_ID d'un dossier à partir du premier fichier rencontré, ce qui envoyait **1 228 fichiers vers un seul patient** et faisait **disparaître 20 patients** de la delivery.
 
@@ -54,6 +50,12 @@ Analyse et visualisation des données ouvertes de la SNCF : régularité mensuel
 
 **Outils :** Python, NumPy, pandas, Tableau
 
+### Pipeline de données orchestré — Airflow, GCP, dbt, Soda
+
+Conception et orchestration d'un pipeline ETL avec Apache Airflow, intégration de données vers GCS/BigQuery, transformations modélisées avec dbt et mise en place de tests de qualité des données avec Soda.
+
+**Outils :** Apache Airflow, Google Cloud Platform, GCS, BigQuery, dbt, Soda, SQL, Python
+
 ---
 
 ## Expériences professionnelles
@@ -72,17 +74,17 @@ Analyse et visualisation des données ouvertes de la SNCF : régularité mensuel
 **Projet 2 — Génération automatisée des CERFA d'alternance (Power Automate)**
 
 - Cartographie et réconciliation de 3 sources par clé métier, mapping vers un modèle de 136 champs.
-- Pipeline événementiel industrialisé : ingestion, transformation, génération et diffusion automatisées des CERFA, soit un **gain de 6 à 10 h/semaine**.
+- Pipeline événementiel industrialisé : génération et diffusion automatisées des CERFA, **gain de 6 à 10 h/semaine**.
 - Fiabilisation : upsert idempotent (**zéro doublon**), déclenchement conditionnel, contrôles de complétude.
 
 ### Data Engineer (Stage · 6 mois) — CGI
 *03/2025 – 09/2025 · Puteaux, Île-de-France*<br>
 *Client : Ministère de la Transition écologique*
 
-- Pipelines batch Python / PySpark / SQL sur Azure Databricks, architecture Medallion (Bronze, Silver, Gold).
-- Orchestration et industrialisation des flux avec Azure Data Factory.
-- Gouvernance des données avec Unity Catalog : lineage et gestion des accès.
-- Modélisation sémantique et KPIs avec les équipes métier ; tableaux de bord Power BI.
+- Développement et maintenance de pipelines de données en Python sur Azure Databricks (PySpark, SQL) selon une architecture Medallion (Bronze, Silver, Gold).
+- Gouvernance des données via Unity Catalog : lineage et gestion des accès.
+- Construction de modèles sémantiques et définition de KPIs avec les équipes métier.
+- Production de tableaux de bord Power BI et orchestration des flux avec Azure Data Factory.
 
 ### Data Scientist – IA générative (Stage · 3 mois) — Seleniums
 *04/2024 – 06/2024 · Puteaux, Île-de-France*
@@ -98,12 +100,14 @@ Analyse et visualisation des données ouvertes de la SNCF : régularité mensuel
 
 ## Compétences
 
-- **Langages & BI** : Python, SQL avancé, PL/SQL · Power BI (DAX, Power Query), Tableau, Excel
-- **Data Engineering** : Databricks (Delta Lake, Unity Catalog), PySpark, Spark SQL, dbt, Airflow, Azure Data Factory
-- **Modélisation & bases** : Medallion, modèles sémantiques, PostgreSQL, DuckDB, SQL Server, Oracle, MongoDB
-- **Cloud** : Azure (Data Factory, Data Lake, Synapse), AWS (S3, Glue, Redshift), GCP (GCS, BigQuery)
-- **Industrialisation & qualité** : Git, CI/CD GitLab, Docker, Kubernetes, FastAPI, pytest, tests dbt, Soda
-- **IA générative** : LLM, RAG, LangChain, Hugging Face, PyTorch, Microsoft Copilot Studio, Power Automate, n8n
+- **Langages** : Python (pandas, PySpark, pytest), SQL (avancé)
+- **Plateformes data** : Databricks (Delta Lake, Workflows, Unity Catalog)
+- **Data engineering** : pipelines batch et streaming, Apache Spark, ETL/ELT, dbt, Airflow
+- **Industrialisation** : Git, CI/CD (GitHub Actions / Azure DevOps), Docker, FastAPI, Linux, tests unitaires et d'intégration
+- **Cloud** : Azure (Data Factory, ADLS Gen2), GCP (GCS, BigQuery), AWS (S3, Glue) – notions
+- **Visualisation** : Power BI, Tableau
+- **Méthodes** : Agile / Scrum, Jira
+- **IA générative** : Microsoft Foundry, Microsoft Copilot, API LLM, RAG
 
 ---
 
